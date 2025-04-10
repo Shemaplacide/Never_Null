@@ -1,1 +1,5 @@
-sql file
+This folder contains all the SQL scripts related to our Window Functions assignment using Oracle 21c.
+The scripts are organized and written to demonstrate analytical queries applied on a simple employees dataset.
+Each file reflects a key step in completing the assignment. 
+All scripts are intended to be run inside Oracle SQL Developer or any Oracle 21c-compatible environment.
+
