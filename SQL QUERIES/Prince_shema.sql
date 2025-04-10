@@ -1,13 +1,3 @@
--- 1. DROP TABLE IF EXISTS
-BEGIN
-   EXECUTE IMMEDIATE 'DROP TABLE employees PURGE';
-EXCEPTION
-   WHEN OTHERS THEN
-      IF SQLCODE != -942 THEN -- ignore error if table doesn't exist
-         RAISE;
-      END IF;
-END;
-/
 
 -- 1. CREATE TABLE
 CREATE TABLE employees (
@@ -81,7 +71,7 @@ SELECT * FROM (
 ) WHERE row_num <= 2;
 
 
--- 5. Window Aggregation – Max in Category vs Overall
+-- 5. Window Aggregation â€“ Max in Category vs Overall
 
 -- MAX() OVER (PARTITION BY ...) gives departmental max.
 -- MAX() OVER () gives global max.
