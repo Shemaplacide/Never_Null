@@ -1,6 +1,6 @@
 
 
-Welcome to **Not_Null**, where smart queries meet teamwork and good humor!  
+Welcome to **Never_Null**, where smart queries meet teamwork and good humor!  
 This is our official submission for the **SQL Window Functions** assignment using **Oracle 21c**.
 
 > **Team Members:**  
@@ -139,7 +139,7 @@ If you have any feedback, suggestions, or just want to geek out over SQL — fee
 Until then, keep your queries optimized and your `NULLs` handled 😉
 
 > **With appreciation,**  
-> **The Not_Null Team**
+> **The Never_Null Team**
 
 
 
